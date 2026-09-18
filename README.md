@@ -1,16 +1,48 @@
-# React + Vite
+🧮 Calculadora Simples em React
+📌 Sobre o projeto
+Este projeto consiste em uma calculadora simples desenvolvida em React, utilizando o hook useState para controlar os valores digitados pelo usuário, a operação escolhida e o resultado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A aplicação permite realizar quatro operações matemáticas:
+➕ Soma
+➖ Subtração
+✖️ Multiplicação
+➗ Divisão
 
-Currently, two official plugins are available:
+🛠️ Tecnologias utilizadas
+React
+JavaScript
+CSS Modules
+useState
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+⚙️ Funcionamento
+O usuário deve:
+Digitar o primeiro número.
+Digitar o segundo número.
+Escolher uma operação.
+Clicar em Calcular.
+O resultado será exibido na tela.
 
-## React Compiler
+O botão Limpar apaga os valores preenchidos e o resultado.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Estrutura
+O componente principal é:
+FormCalculadora.jsx
+O estilo é importado através de:
+formcalculadora.module.css
 
-## Expanding the ESLint configuration
+💻 Principais funções
+calcular()
+Realiza a operação matemática escolhida pelo usuário e apresenta o resultado.
+limpar()
+Limpa os campos da calculadora e retorna os estados para seus valores iniciais.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎯 Objetivo
+Praticar os conceitos básicos do React, principalmente:
+Criação de componentes;
+Uso do useState;
+Eventos como onChange, onClick e onSubmit;
+Manipulação de formulários;
+Operações matemáticas com JavaScript.
+
+👩‍💻 Conclusão
+O projeto apresenta uma calculadora funcional e simples, permitindo praticar conceitos fundamentais do React e da programação com JavaScript.
